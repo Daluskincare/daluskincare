@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dalú Skincare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      line-height: 2.0;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 1rem;
+      object-fit: cover;
+      max-width: 700px;
+      margin: auto;
+      display: block;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      color: #333;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+      color: #777;
+      background-color: #f3f2ef;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="logo.png" alt="Dalú Logo" />
+      <div class="header-title">We celebrate uniqueness</div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Our Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#process">Hands On</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#shop">Shop</a>
+      <select class="language-switcher" onchange="changeLanguage(this.value)">
+        <option value="en" selected>EN</option>
+        <option value="es">ES</option>
+      </select>
+    </nav>
+  </header>
+  <section id="gallery">
+    <h2>Timeless Benefits of Dalú's Soaps</h2>
+    <div class="gallery">
+      <figure>
+        <img src="WhatsApp Image 2020-09-21 at 7.21.23 PM.jpeg" alt="Soap Green">
+        <figcaption>Plant-astic</figcaption>
+        <p>Made with natural aloe vera and glycerin. Ideal for sensitive or irritated skin — it soothes, hydrates, and helps reduce inflammation while promoting a healthy glow.</p>
+      </figure>
+      <figure>
+        <img src="WhatsApp Image 2020-09-13 at 11.09.34 PM.jpeg" alt="Soap Oats">
+        <figcaption>Miracles Happen</figcaption>
+        <p>Formulated with natural glycerin, oatmeal, and honey. Perfect for dry or irritated skin — it deeply nourishes, gently exfoliates, and promotes a soft, radiant complexion while calming sensitivity.</p>
+      </figure>
+      <figure>
+        <img src="WhatsApp Image 2021-01-19 at 12.25.33 PM-2.jpeg" alt="Soap White Mirror">
+        <figcaption>Craving Summer</figcaption>
+        <p>Crafted with coconut oil, goat milk, and glycerin. Perfect for dull or dry skin — this soap deeply moisturizes, softens, and helps restore your skin’s natural radiance with a creamy, luxurious feel.</p>
+      </figure>
+    </div>
+  </section>
+  <footer>Dalú Skincare - All Rights Reserved</footer>
+</body>
+</html>
